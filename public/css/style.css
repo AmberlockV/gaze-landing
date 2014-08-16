@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p { font-family: 'Open Sans', sans-serif;; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 700;}
+
+p { font-weight: 400;}
+
+.light-heading {
+    font-weight: 300;
+}
+
+.jumbotron {
+  background: url(../images/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  z-index: 1;
+  margin-bottom: 0px;
+}
+
+.jumbotron-content {
+  text-align: center;
+  color: #fff;
+  padding: 50px 0;
+}
+
+#browser-frame {
+  height: 500px;
+  background-color: rgba(35,32,54,0.85);
+  border-radius: 10px;
+  border: 2px solid #fff;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in;
+     -moz-transition: all 0.5s ease-in;
+       -o-transition: all 0.5s ease-in;
+          transition: all 0.5s ease-in;
+}
+
+#browser-frame.animate {
+  -webkit-transform: translateY(-50px);
+  opacity: 1;
+}
+
+.browser-toolbar img{
+  width: 100%;
+}
+
+.browser-content {
+   padding: 100px 0;
+}
+
+.browser-content h1{
+  font-size: 2em;
+}
+
+.browser-content p {
+  font-size: 1em;
+  margin-bottom: 50px;
+}
