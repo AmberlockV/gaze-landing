@@ -10,6 +10,7 @@ This is an entry for [Webgeek Devcup 2014](http://webgeek.ph/devcup-2014) with t
 
 * Chrome Browser
 * Webcam
+* [Gaze Chrome Extension](http://bit.ly/gaze-chrome-extension)
 
 ## Libraries Used
 
