@@ -1,5 +1,4 @@
 ![Logo](https://github.com/AmberlockV/gaze-landing/blob/master/public/images/logo.png "Gaze Logo")
-Gaze
 =======
 
 <br>
