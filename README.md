@@ -1,6 +1,8 @@
+![Logo](https://github.com/AmberlockV/gaze-landing/blob/master/public/images/logo.png "Gaze Logo")
 Gaze
 =======
 
+<br>
 Gaze is a chrome extension that lets you navigate on a webpage via webcam.
 <br>
 This is an entry for [Webgeek Devcup 2014](http://webgeek.ph/devcup-2014) with the theme `Insight`
