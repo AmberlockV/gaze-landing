@@ -2,6 +2,7 @@ Gaze
 =======
 
 Gaze is a chrome extension that lets you navigate on a webpage via webcam.
+<br>
 This is an entry for [Webgeek Devcup 2014](http://webgeek.ph/devcup-2014) with the theme `Insight`
 
 ## Requirements
@@ -16,8 +17,8 @@ This is an entry for [Webgeek Devcup 2014](http://webgeek.ph/devcup-2014) with t
 * Rack
 
 #### Chrome Extension
-* Jquery
 * [Camgaze](https://github.com/wallarelvo/camgaze.js) - In-browser Eye Tracking and Gaze Prediction using JavaScript
+* Jquery
 
 ## Features
 
