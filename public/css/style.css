@@ -1,8 +1,15 @@
+@font-face {
+  font-family: proxima-nova;
+  src: local(proxima-nova), url('/fonts/ProximaNova-Reg.otf') format('opentype');
+}
+
 html, body {
   height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p { font-family: 'Open Sans', sans-serif;; }
+h1, h2, h3, h4, h5, h6, p, a { font-family: 'proxima-nova', sans-serif; }
+
+p, small { font-family: 'proxima-nova', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 700;}
 
@@ -13,14 +20,16 @@ p { font-weight: 400;}
 }
 
 .jumbotron {
+  background: transparent;
+}
+
+body {
   background: url(../images/bg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
-  z-index: 1;
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
 }
 
 .jumbotron-content {
@@ -94,8 +103,23 @@ p { font-weight: 400;}
   color: white;
 }
 
+.btn-demo:active {
+  background: #d500f9;
+  border: 0;
+}
+
 .btn-demo:hover {
   background: #d500f9;
   transition: background .5s;
   border: 0;
 }
+
+.footer-robbie {
+  display: block;
+  padding-top: 40px;
+}
+
+.footer-robbie small {
+  color: rgba(255, 255, 255, .7);
+}
+
