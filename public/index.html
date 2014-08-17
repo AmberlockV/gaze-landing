@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Owl</title>
+	<title>Gaze | Don't you roll your eyes on me!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
    	<link rel="shortcut icon" href="favicon.ico">
    	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -21,19 +21,49 @@
 	    				</div>
 	    				<div class="browser-content">
 		    				<a href="#"><img src="images/logo.png" alt="logo"></a>
-			        		<h1><span class="light-heading">Lorem ipsum with </span>Brand Name</h1>
-			        		<p>
-			        			This is were the subheading goes
+                <h1><span class="light-heading">Look ma, no mouse.</span></h1>
+			        		<p class="verbiage">
+                    Scroll up, scroll down, click a link. 
+                    <br/>You can now do this just by rolling your eyes on a webpage using your webcam.
 			        		</p>
-			         		<button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-save"></span> Install Chrome Extension</button>
+			         		<button type="button" class="btn btn-primary btn-lg btn-robbie"><span class="glyphicon glyphicon-save"></span> Install Chrome Extension</button>
 	    				</div>
 	    			</div>
 	    		</div>
 	        </div>
-	    </div>
+      <div class="explainer centered">
+        <a href="#" data-toggle="modal" data-target="#demo">
+          <div class="btn btn-primary btn-lg btn-demo">
+            <span class="glyphicon glyphicon-play"></span> Play Demo
+          </div>
+        </a>
+      </div>
+    </div>
 	</div>
+  <!-- Modal -->
+  <div class="modal fade" id="demo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myModalLabel">Don't you roll your eyes on me!</h4>
+        </div>
+        <div class="modal-body">
+          <div class="centered">
+            Video here
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/modal.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
+

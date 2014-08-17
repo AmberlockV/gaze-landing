@@ -62,3 +62,40 @@ p { font-weight: 400;}
   font-size: 1em;
   margin-bottom: 50px;
 }
+
+.verbiage {
+  color: #7c76b8;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.btn-robbie {
+  background: transparent;
+  border: 2px solid white;
+}
+.btn-robbie:hover {
+  border: 2px solid white;
+  background: #e040fb;
+  transition: background .3s;
+}
+
+.centered {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-demo {
+  background: #e040fb;
+  border: 0;
+}
+
+.btn-demo a {
+  color: white;
+}
+
+.btn-demo:hover {
+  background: #d500f9;
+  transition: background .5s;
+  border: 0;
+}
